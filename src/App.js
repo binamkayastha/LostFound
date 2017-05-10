@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import './App.css';
+
+import './css/App.css';
+import './css/framework7.material.min.css';
+import './css/framework7.material.colors.css';
+import './js/framework7.min.js';
+
 import * as firebase from 'firebase';
+
 
 class App extends Component {
 
