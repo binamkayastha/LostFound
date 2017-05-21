@@ -7,31 +7,17 @@
   },
   "dependencies": {
     "firebase": "^3.7.2",
+    "framework7": "^1.5.3",
+    "framework7-react": "^0.8.5-beta.7",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
   },
   "homepage": ".",
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-clean-css": "^2.2.2",
-    "gulp-concat": "^2.6.1",
-    "gulp-connect": "^5.0.0",
-    "gulp-header": "^1.8.8",
-    "gulp-jade": "^1.1.0",
-    "gulp-jshint": "^2.0.4",
-    "gulp-less": "^3.3.0",
-    "gulp-open": "^2.0.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-sourcemaps": "^2.2.1",
-    "gulp-tap": "^0.1.3",
-    "gulp-uglify": "^2.0.0",
-    "jshint": "^2.9.4",
-    "jshint-stylish": "^2.2.1"
-  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "android": "npm run build && cd Cordova && cordova run android && cd .."
   }
 }
