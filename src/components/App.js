@@ -45,6 +45,7 @@ const MainViews = (props, context) => {
 						) : null}						
 						<ContentBlockTitle>Welcome to my App</ContentBlockTitle>
 						<ContentBlock inner>
+							<p>Test</p>
               <p>At this point, Framework7, React, and Cordova are the frameworks being used</p>
               <p>What's left is a testing framework</p>
               <p>Below is an example component which is displaying the hello world text from the firebase healthcheck</p>
@@ -91,7 +92,7 @@ class App extends Component {
 		return (
 			<Framework7App themeType="material">
 				<MainViews helloWorld={this.state.helloWorld} />
-			</Framework7App>  
+			</Framework7App>
 		);
 	}
 

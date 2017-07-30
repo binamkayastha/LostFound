@@ -12,3 +12,6 @@ plug in your android phone
     cd Cordova
     cordova platform add android # Only need to do this once
     cordova run android
+
+# Project Structure
+https://daveceddia.com/react-project-structure/
